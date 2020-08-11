@@ -1,5 +1,9 @@
-# Week4_Public
+# COVID-19 Classification Project
 
-This repository is the PUBLIC repo for students of the 2020 MIT BWSI Medlytics course for Week 4!
+This repository contains the classification model and a WebApp framework using django. 
 
-This repository does not allow pull requests so we recommend you fork this repository and work on your own copy.
+The model is trained on thousands of X-Ray image files of five classes (Normal/Covid/Bacterial Pnuemonia/Viral Pnuemonia/Tuberculosis).
+The notebook also contains the evaluations of the model in confusion metrix and ROC curve. 
+
+The Webapp can be run with django, and it will take in rgb files to output its predictions. 
+
