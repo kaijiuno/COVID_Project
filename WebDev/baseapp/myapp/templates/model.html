@@ -7,7 +7,7 @@
             {% csrf_token %}
             <br>
                  <div class="text-center">
-                    <h1>Upload your image!</h1>
+                    <h1>Upload your Image</h1>
                     <br>
                       {{context.image}}
                       <br>
@@ -17,7 +17,12 @@
              {% if img is not None %}
                 <div class="text-center">
                     <h2>Your result: </h2>
-                    <img src = "{{img.image.url}}">
+                    <img src = "{{img.image.url}}"
+                    width = "300" height = "400">
+                    <br>
+                    {{result}}
+                    <br>
+                    {{decision}}
                 </div>
             {% endif %}
         </form>
