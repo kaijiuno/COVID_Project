@@ -6,4 +6,4 @@ The model is trained on thousands of X-Ray image files of five classes (Normal/C
 The notebook also contains the evaluations of the model in confusion metrix and ROC curve. 
 
 The Webapp can be run with django, and it will take in rgb files to output its predictions. 
-
+Link: https://cov2d19-classifier.herokuapp.com/ 
